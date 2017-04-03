@@ -1,5 +1,5 @@
 {
-    "name": "axovis/flow-rst",
+    "name": "cm/flow-rst",
     "type": "neos-plugin",
     "description": "Flow plugin to parse reStructuredText document.",
     "license": "MIT",
@@ -10,7 +10,7 @@
     "keywords": ["flow","rst","reStructuredText","parser","document"],
     "autoload": {
         "psr-4": {
-            "Axovis\\Flow\\RST\\": "Classes"
+            "CM\\Flow\\RST\\": "Classes"
         }
     }
 }

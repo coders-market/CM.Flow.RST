@@ -1,9 +1,9 @@
 <?php
-namespace Axovis\Flow\RST\Service;
+namespace CM\Flow\RST\Service;
 
 use Gregwar\RST\Builder;
 use Gregwar\RST\Parser;
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 
 /**
  * @Flow\Scope("singleton")

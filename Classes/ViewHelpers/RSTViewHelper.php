@@ -1,9 +1,9 @@
 <?php
-namespace Axovis\Flow\RST\ViewHelpers;
+namespace CM\Flow\RST\ViewHelpers;
 
-use Axovis\Flow\RST\Service\RSTService;
-use TYPO3\Fluid\Core\ViewHelper\AbstractViewHelper;
-use TYPO3\Flow\Annotations as Flow;
+use CM\Flow\RST\Service\RSTService;
+use Neos\FluidAdaptor\Core\ViewHelper\AbstractViewHelper;
+use Neos\Flow\Annotations as Flow;
 
 class RSTViewHelper extends AbstractViewHelper {
     /**
@@ -14,7 +14,7 @@ class RSTViewHelper extends AbstractViewHelper {
 
     /**
      * @param string $rst
-     * @return array
+     * @return string
      */
     public function render($rst = null) {
         if($rst == null) {
